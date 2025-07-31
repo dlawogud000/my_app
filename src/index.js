@@ -4,14 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import ConfirmButton from './chapter_08/ConfirmButton.jsx';
+import SignUp from './chapter_11/SignUp.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 //root.render(<App/>);  
 
 root.render(
   <React.StrictMode>
-    <ConfirmButton />
+    <SignUp />
   </React.StrictMode>
 );
 
