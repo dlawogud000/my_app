@@ -4,14 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import SignUp from './chapter_11/SignUp.jsx';
+import ProfileCard from './chapter_13/ProfileCard.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 //root.render(<App/>);  
 
 root.render(
   <React.StrictMode>
-    <SignUp />
+    <ProfileCard />
   </React.StrictMode>
 );
 
